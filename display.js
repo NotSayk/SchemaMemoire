@@ -47,11 +47,6 @@ function createTagsHTML(tags) {
     }).join('');
 }
 
-function seeMoreInfo(productId) {
-    const url = `infoProd.html?id=${productId}`;
-    window.location.href = url;
-}
-
 function renderProducts(products, container) {
     container.innerHTML = '';
     
@@ -69,13 +64,11 @@ function renderProducts(products, container) {
         productElement.innerHTML = `
             <div class="produit-image-container">
                 <img src="${product.image}" alt="${product.alt}" loading="lazy" />
-                <div class="produit-overlay">
-                    <a class="btn-savoir-plus" data-product-id="${product.id}">En savoir plus</a>
-                </div>
             </div>
             <div class="produit-info">
                 <h3>${product.name}</h3>
                 <p>${product.description}</p>
+                <div class="produit-price">${product.price.toFixed(2)}€</div>
                 <div class="produit-tags">
                     ${createTagsHTML(product.tags)}
                 </div>
@@ -83,8 +76,5 @@ function renderProducts(products, container) {
         `;
         
         container.appendChild(productElement);
-        
-        const seeMoreBtn = productElement.querySelector('.btn-savoir-plus');
-        seeMoreBtn.addEventListener('click', () => seeMoreInfo(product.id));
     });
 }
