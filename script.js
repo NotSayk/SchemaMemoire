@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Burger menu functionality
   const burgerContainer = document.querySelector('.burger-container');
   const navLinks = document.querySelector('.nav-links');
   const header = document.getElementById('header');
@@ -29,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Category filtering functionality
   const categoryButtons = document.querySelectorAll('.categorie-tab');
   const products = document.querySelectorAll('.produit');
   
