@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thémis et Hélène - Maroquinerie artisanale de qualité en cuir véritable.">
+  <title>Schémas Mémoire et Graphes MPM</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="images/logo.png" type="image/png" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" defer></script>
+  <script src="script.js" defer></script>
+  <script src="contact.js" defer></script>
+  <script src="display.js" defer></script>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <img src="images/logo.png" alt="Logo Schémas Mémoire et Graphes MPM" class="logo" />
+   <ul class="nav-links">
+        <li><a href="#home" data-text="Accueil">Accueil</a></li>
+        <li><a href="#categories" data-text="Catégories">Catégories</a></li>
+        <li><a href="#produits" data-text="Produits">Produits</a></li>
+        <li><a href="#contact" data-text="Contact">Contact</a></li>
+      </ul>
+    <div class="burger-container" aria-label="Menu mobile">
+      <div class="burger"></div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="home-container">
+      <div class="landing">
+        <h1 class="titre-principal">Schémas Mémoire et Graphes MPM</h1>
+        <p class="sous-titre">Impression en 3D </p>
+        <a href="#categories" class="scroll-to-products">
+          <span class="scroll-text" data-text="Scroll">Découvrez les produits</span>
+          <i class="scroll-icon fas fa-angle-down"></i>
+        </a>
+      </div>
+    </section>
+    <section id="produits" class="best-sales-container">
+      <h2 class="section-title">Les Produits</h2>
+        <div class="categories-tabs">
+        <button class="categorie-tab active" data-category="all">Tous les produits</button>
+        <button class="categorie-tab" data-category="Graphes">Graphes</button>
+        <button class="categorie-tab" data-category="Schémas">Schémas</button>
+      </div>
+      <div class="produit-liste">
+      
+      </div>
+    </section>
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+  <form id="contactForm" action="https://formspree.io/f/mjkworep" method="POST">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required />
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Envoyer</button>
+    <div id="formStatus" class="form-status"></div>
+  </form>
+  <a href="#home" class="scrollToTop">
+    <i class="scrollUp fas fa-angle-up"></i>
+  </a>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p class="copyrights">&copy; 2025 Samuel Ampeau - Tous droits réservés.</p>
+    </div>
+  </footer>
+</body>
+</html>

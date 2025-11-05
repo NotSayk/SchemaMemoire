@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "category": "accessoire",
+        "image": "images/produits/ceinture.png",
+        "alt": "Ceinture en cuir",
+        "name": "Ceinture Classique",
+        "description": "Ceinture élégante en cuir pour toutes occasions.",
+        "tags": ["Accessoires"],
+        "colors": ["Noir", "Marron", "Camel"],
+        "fullDescription": "Ceinture en cuir véritable avec boucle en métal. Disponible en plusieurs tailles.",
+        "inStock": true
+    },
+    {
+        "id": 2,
+        "category": "femme",
+        "image": "images/produits/sac1.jpg",
+        "alt": "Sac à main en cuir",
+        "name": "Sac Élégance",
+        "description": "Sac à main chic et pratique pour femmes.",
+        "tags": ["Femme"]
+    },
+    {
+        "id": 3,
+        "category": "homme",
+        "image": "images/produits/sac1.jpg",
+        "alt": "Sacoche homme en cuir",
+        "name": "Sacoche Business",
+        "description": "Sacoche idéale pour le travail et les déplacements.",
+        "tags": ["Homme"]
+    },
+    {
+        "id": 4,
+        "category": "enfant",
+        "image": "images/produits/sac1.jpg",
+        "alt": "Sac à dos enfant",
+        "name": "Sac Aventure",
+        "description": "Sac à dos léger et coloré pour enfants.",
+        "tags": ["Enfant"]
+    },
+    {
+        "id": 5,
+        "category": "femme",
+        "image": "images/produits/sac1.jpg",
+        "alt": "Pochette soirée en cuir",
+        "name": "Pochette Glamour",
+        "description": "Pochette élégante pour vos soirées.",
+        "tags": ["Femme"]
+    },
+    {
+        "id": 6,
+        "category": "homme",
+        "image": "images/produits/sac1.jpg",
+        "alt": "Sac de voyage homme",
+        "name": "Sac Voyageur",
+        "description": "Sac spacieux et robuste pour vos voyages.",
+        "tags": ["Homme"]
+    },
+    {
+        "id": 7,
+        "category": "femme",
+        "image": "images/produits/sac1.jpg",
+        "alt": "Sac cabas en cuir",
+        "name": "Cabas Élégant",
+        "description": "Sac cabas pratique et stylé pour femmes.",
+        "tags": ["Femme", "Accessoires"]
+    },
+    {
+        "id": 8,
+        "category": "enfant",
+        "image": "images/produits/sac1.jpg",
+        "alt": "Cartable scolaire",
+        "name": "Cartable Scolaire",
+        "description": "Cartable parfait pour l'école primaire.",
+        "tags": ["Enfant"]
+    },
+    {
+        "id": 9,
+        "category": "homme",
+        "image": "images/produits/portefeuille.png",
+        "alt": "Portefeuille homme en cuir",
+        "name": "Portefeuille Classique",
+        "description": "Portefeuille élégant et pratique pour hommes.",
+        "tags": ["Homme"]
+    }
+]
