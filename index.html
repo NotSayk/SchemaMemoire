@@ -19,7 +19,7 @@
     <ul class="nav-links">
       <li><a href="#home">Accueil</a></li>
       <li><a href="#produits">Outils</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact">Commander</a></li>
     </ul>
     <div class="burger-container" aria-label="Menu mobile">
       <div class="burger"></div>
@@ -41,12 +41,30 @@
 
     <section id="produits" class="products-container">
       <h2 class="section-title">Nos Emporte-pièces Disponibles</h2>
-      <div class="categories-tabs">
-        <button class="categorie-tab active" data-category="all">Tous</button>
-        <button class="categorie-tab" data-category="schemas-memoires">Schémas Mémoires</button>
-        <button class="categorie-tab" data-category="graphes">Graphes</button>
-      </div>
       <div class="produit-liste"></div>
+    </section>
+
+    <section id="explanation" class="explanation-container">
+      <h2 class="section-title">🧠 Pourquoi MemoTools ?</h2>
+      <div class="explanation-content">
+        <div class="explanation-item">
+          <i class="explanation-icon fas fa-brain"></i>
+          <h3 class="explanation-subtitle">Schémas Mémoires</h3>
+          <p>À partir du TD6, les schémas mémoires deviennent essentiels pour comprendre le fonctionnement d'un programme et la localisation des variables en mémoire.</p>
+          
+          <p>Notre emporte-pièce respecte exactement le modèle officiel fourni par vos professeurs, ce qui vous permet de créer des schémas droits et précis rapidement.</p>
+          
+          <p>👉 C'est un outil que vous utiliserez tout au long de l'année, alors autant être bien équipé dès maintenant !</p>
+          <br>
+          <i class="explanation-icon fas fa-project-diagram" aria-hidden="true" title="Graphes"></i>
+          <h3 class="explanation-subtitle">Graphes</h3>
+          <p>L'emporte-pièce graphe vous sera indispensable pour le semestre 2, notamment en GPO pour les graphes PERT et les diagrammes de chaîne critique.</p>
+          
+          <p>Fabriqué en 3D : solide, précis et durable. Bien meilleur que du carton ou du papier !</p>
+        </div>
+      </div>
+      <br>
+      <img src="images/graphe_example.jpg" alt="Exemple de graphe créé avec MemoTools" class="explanation-image" />
     </section>
 
     <section id="contact" class="contact-container">
@@ -73,6 +91,10 @@
   <footer class="footer">
     <div class="footer-bottom">
       <p class="copyrights">&copy; 2025 MemoTools - Tous droits réservés.</p>
+       <div class="social-bottom">
+            <a href="https://github.com/NotSayk" class="social-icon"><i class="fab fa-github"></i></a>
+        </div>
+        
     </div>
   </footer>
 </body>

@@ -306,10 +306,11 @@ img {
 /* ===== PRODUCTS GRID ===== */
 .produit-liste {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: var(--spacing-md);
-  max-width: 1400px;
+  max-width: 900px;
   margin: 0 auto;
+  justify-items: center;
 }
 
 .produit {
@@ -321,8 +322,9 @@ img {
   border: 2px solid transparent;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 300px;
 }
-
 .produit:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 25px var(--shadow);
@@ -334,19 +336,17 @@ img {
   position: relative;
   overflow: hidden;
   height: 220px;
-  background-color: var(--bg);
+  background-color: #fbfbfb
 }
 
 .produit img {
   width:100%;
   height: 100%;
   object-fit: cover;
+  transform: scale(0.95);
   transition: transform var(--transition-normale);
 }
 
-.produit:hover img {
-  transform: scale(1.08);
-}
 
 .produit-overlay {
   position: absolute;
@@ -704,4 +704,53 @@ form button:hover {
     padding: 6px 12px;
     font-size: 0.75rem;
   }
+}
+
+.produit-colors {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+  flex-wrap: wrap;
+}
+
+.color-dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.color-dot:hover {
+  transform: scale(1.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.color-dot.active {
+  border-color: var(--neon);
+  box-shadow: 0 0 10px var(--neon);
+}
+
+.explanation-container {
+  padding: var(--spacing-xl) var(--spacing-md);
+  background-color: var(--bg);
+}
+
+.explanation-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.explanation-image {
+  width: 600px;
+  height: auto;
+  margin-bottom: var(--spacing-sm);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: var(--spacing-sm);
+  border-radius: 12px;
 }

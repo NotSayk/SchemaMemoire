@@ -2,157 +2,95 @@
     {
         "id": 1,
         "category": "schemas-memoires",
-        "image": "images/produits/schema/noir.jpg",
-        "alt": "Emporte-pièce Schémas Mémoires - Noir",
         "name": "Emporte-pièce Schémas Mémoires",
         "description": "Emporte-pièce pour schémas mémoires",
         "price": 3,
-        "color": "Noir",
         "tags": ["Schémas Mémoires"],
         "fullDescription": "Emporte-pièce de haute qualité pour créer des schémas mémoires. Parfait pour visualiser les structures de données.",
-        "inStock": true
+        "variants": [
+            {
+                "color": "Noir",
+                "image": "images/produits/schema/noir.jpg",
+                "alt": "Emporte-pièce Schémas Mémoires - Noir",
+                "inStock": true
+            },
+            {
+                "color": "Jaune",
+                "image": "images/produits/schema/jaune.jpg",
+                "alt": "Emporte-pièce Schémas Mémoires - Jaune",
+                "inStock": true
+            },
+            {
+                "color": "Blanc",
+                "image": "images/produits/schema/blanc.jpg",
+                "alt": "Emporte-pièce Schémas Mémoires - Blanc",
+                "inStock": true
+            },
+            {
+                "color": "Bleu",
+                "image": "images/produits/schema/bleu.jpg",
+                "alt": "Emporte-pièce Schémas Mémoires - Bleu",
+                "inStock": true
+            },
+            {
+                "color": "Orange",
+                "image": "images/produits/schema/orange.jpg",
+                "alt": "Emporte-pièce Schémas Mémoires - Orange",
+                "inStock": true
+            },
+            {
+                "color": "Rouge",
+                "image": "images/produits/schema/rouge.jpg",
+                "alt": "Emporte-pièce Schémas Mémoires - Rouge",
+                "inStock": true
+            }
+        ]
     },
     {
         "id": 2,
-        "category": "schemas-memoires",
-        "image": "images/produits/schema/jaune.jpg",
-        "alt": "Emporte-pièce Schémas Mémoires - Jaune",
-        "name": "Emporte-pièce Schémas Mémoires",
-        "description": "Emporte-pièce pour schémas mémoires",
-        "price": 3,
-        "color": "Jaune",
-        "tags": ["Schémas Mémoires"],
-        "fullDescription": "Emporte-pièce de haute qualité pour créer des schémas mémoires. Parfait pour visualiser les structures de données.",
-        "inStock": true
-    },
-    {
-        "id": 3,
-        "category": "schemas-memoires",
-        "image": "images/produits/schema/blanc.jpg",
-        "alt": "Emporte-pièce Schémas Mémoires - Blanc",
-        "name": "Emporte-pièce Schémas Mémoires",
-        "description": "Emporte-pièce pour schémas mémoires",
-        "price": 3,
-        "color": "Blanc",
-        "tags": ["Schémas Mémoires"],
-        "fullDescription": "Emporte-pièce de haute qualité pour créer des schémas mémoires. Parfait pour visualiser les structures de données.",
-        "inStock": true
-    },
-    {
-        "id": 4,
-        "category": "schemas-memoires",
-        "image": "images/produits/schema/bleu.jpg",
-        "alt": "Emporte-pièce Schémas Mémoires - Bleu",
-        "name": "Emporte-pièce Schémas Mémoires",
-        "description": "Emporte-pièce pour schémas mémoires",
-        "price": 3,
-        "color": "Bleu",
-        "tags": ["Schémas Mémoires"],
-        "fullDescription": "Emporte-pièce de haute qualité pour créer des schémas mémoires. Parfait pour visualiser les structures de données.",
-        "inStock": true
-    },
-    {
-        "id": 5,
-        "category": "schemas-memoires",
-        "image": "images/produits/schema/orange.jpg",
-        "alt": "Emporte-pièce Schémas Mémoires - Orange",
-        "name": "Emporte-pièce Schémas Mémoires",
-        "description": "Emporte-pièce pour schémas mémoires",
-        "price": 3,
-        "color": "Orange",
-        "tags": ["Schémas Mémoires"],
-        "fullDescription": "Emporte-pièce de haute qualité pour créer des schémas mémoires. Parfait pour visualiser les structures de données.",
-        "inStock": true
-    },
-    {
-        "id": 6,
-        "category": "schemas-memoires",
-        "image": "images/produits/schema/rouge.jpg",
-        "alt": "Emporte-pièce Schémas Mémoires - Rouge",
-        "name": "Emporte-pièce Schémas Mémoires",
-        "description": "Emporte-pièce pour schémas mémoires",
-        "price": 3,
-        "color": "Rouge",
-        "tags": ["Schémas Mémoires"],
-        "fullDescription": "Emporte-pièce de haute qualité pour créer des schémas mémoires. Parfait pour visualiser les structures de données.",
-        "inStock": true
-    },
-    {
-        "id": 7,
         "category": "graphes",
-        "image": "images/produits/graphe/noir.jpg",
-        "alt": "Emporte-pièce Graphes - Noir",
         "name": "Emporte-pièce Graphes",
         "description": "Emporte-pièce pour graphes",
         "price": 1,
-        "color": "Noir",
         "tags": ["Graphes"],
         "fullDescription": "Emporte-pièce de haute qualité pour créer des représentations de graphes. Idéal pour les algorithmes et structures graphiques.",
-        "inStock": true
-    },
-    {
-        "id": 8,
-        "category": "graphes",
-        "image": "images/produits/graphe/jaune.jpg",
-        "alt": "Emporte-pièce Graphes - Jaune",
-        "name": "Emporte-pièce Graphes",
-        "description": "Emporte-pièce pour graphes",
-        "price": 1,
-        "color": "Jaune",
-        "tags": ["Graphes"],
-        "fullDescription": "Emporte-pièce de haute qualité pour créer des représentations de graphes. Idéal pour les algorithmes et structures graphiques.",
-        "inStock": true
-    },
-    {
-        "id": 9,
-        "category": "graphes",
-        "image": "images/produits/graphe/blanc.jpg",
-        "alt": "Emporte-pièce Graphes - Blanc",
-        "name": "Emporte-pièce Graphes",
-        "description": "Emporte-pièce pour graphes",
-        "price": 1,
-        "color": "Blanc",
-        "tags": ["Graphes"],
-        "fullDescription": "Emporte-pièce de haute qualité pour créer des représentations de graphes. Idéal pour les algorithmes et structures graphiques.",
-        "inStock": true
-    },
-    {
-        "id": 10,
-        "category": "graphes",
-        "image": "images/produits/graphe/bleu.jpg",
-        "alt": "Emporte-pièce Graphes - Bleu",
-        "name": "Emporte-pièce Graphes",
-        "description": "Emporte-pièce pour graphes",
-        "price": 1,
-        "color": "Bleu",
-        "tags": ["Graphes"],
-        "fullDescription": "Emporte-pièce de haute qualité pour créer des représentations de graphes. Idéal pour les algorithmes et structures graphiques.",
-        "inStock": true
-    },
-    {
-        "id": 11,
-        "category": "graphes",
-        "image": "images/produits/graphe/orange.jpg",
-        "alt": "Emporte-pièce Graphes - Orange",
-        "name": "Emporte-pièce Graphes",
-        "description": "Emporte-pièce pour graphes",
-        "price": 1,
-        "color": "Orange",
-        "tags": ["Graphes"],
-        "fullDescription": "Emporte-pièce de haute qualité pour créer des représentations de graphes. Idéal pour les algorithmes et structures graphiques.",
-        "inStock": true
-    },
-    {
-        "id": 12,
-        "category": "graphes",
-        "image": "images/produits/graphe/rouge.jpg",
-        "alt": "Emporte-pièce Graphes - Rouge",
-        "name": "Emporte-pièce Graphes",
-        "description": "Emporte-pièce pour graphes",
-        "price": 1,
-        "color": "Rouge",
-        "tags": ["Graphes"],
-        "fullDescription": "Emporte-pièce de haute qualité pour créer des représentations de graphes. Idéal pour les algorithmes et structures graphiques.",
-        "inStock": true
+        "variants": [
+            {
+                "color": "Noir",
+                "image": "images/produits/graphe/noir.jpg",
+                "alt": "Emporte-pièce Graphes - Noir",
+                "inStock": true
+            },
+            {
+                "color": "Jaune",
+                "image": "images/produits/graphe/jaune.jpg",
+                "alt": "Emporte-pièce Graphes - Jaune",
+                "inStock": true
+            },
+            {
+                "color": "Blanc",
+                "image": "images/produits/graphe/blanc.jpg",
+                "alt": "Emporte-pièce Graphes - Blanc",
+                "inStock": true
+            },
+            {
+                "color": "Bleu",
+                "image": "images/produits/graphe/bleu.jpg",
+                "alt": "Emporte-pièce Graphes - Bleu",
+                "inStock": true
+            },
+            {
+                "color": "Orange",
+                "image": "images/produits/graphe/orange.jpg",
+                "alt": "Emporte-pièce Graphes - Orange",
+                "inStock": true
+            },
+            {
+                "color": "Rouge",
+                "image": "images/produits/graphe/rouge.jpg",
+                "alt": "Emporte-pièce Graphes - Rouge",
+                "inStock": true
+            }
+        ]
     }
 ]
