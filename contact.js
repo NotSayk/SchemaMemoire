@@ -1,19 +1,11 @@
-document.getElementById("contactForm").addEventListener("submit", async function (e) {
-    e.preventDefault();
-    const form = e.target;
-    const data = new FormData(form);
-
-    try {
-        const response = await fetch(form.action, {
-            method: "POST",
-            body: data
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById("contactForm");
+    
+    if (contactForm) {
+        contactForm.addEventListener("submit", function (e) {
+            setTimeout(() => {
+                contactForm.reset();
+            }, 100);
         });
-
-        if (response.ok) {
-            await new Promise(resolve => setTimeout(resolve, 1500));
-            form.reset();
-        }
-    } catch (error) {
-        console.error('Error:', error);
     }
 });
