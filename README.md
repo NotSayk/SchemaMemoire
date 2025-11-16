@@ -20,7 +20,7 @@ MemoTools est une plateforme e-commerce dédiée à la vente d'emporte-pièces �
 
 - **HTML5** : Structure sémantique
 - **CSS3** : Styles modernes avec variables CSS et animations
-- **JavaScript (ES6+)** : Logique applicative modulaire
+- **JavaScript** : Logique applicative modulaire
 - **JSON** : Base de données locale pour les produits
 - **Font Awesome** : Icônes vectorielles
 
@@ -125,20 +125,6 @@ Les variables CSS globales sont définies dans `styles.css` :
 - ✅ Safari 14+
 - ✅ Edge 90+
 - ✅ Responsive (mobile, tablette, desktop)
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! Pour contribuer :
-
-1. Forker le projet
-2. Créer une branche (`git checkout -b feature/amelioration`)
-3. Commiter les changements (`git commit -m 'Ajout d'une fonctionnalité'`)
-4. Pousser vers la branche (`git push origin feature/amelioration`)
-5. Ouvrir une Pull Request
-
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👤 Auteur
 
